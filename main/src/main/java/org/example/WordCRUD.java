@@ -86,10 +86,10 @@ WordCRUD(Scanner s){
     }
 
     public void deleteItem() {
-        System.out.print("=> 삭제할 단어 검색 :");
+        System.out.print("=> 삭제할 단어 검색 : ");
         String keyword = s.next();   //공백을 허용하지 않기 위해 next()사용
         ArrayList<Integer> idList = this.listAll(keyword);
-        System.out.print ("=> 삭제할 번호 선택 :");
+        System.out.print ("=> 삭제할 번호 선택 : ");
         int id = s.nextInt();
         s.nextLine();     //id뒤에있는 엔터를 없애기 위해
         System.out.print("=> 정말로 삭제하실래요? (Y/n) : ");
