@@ -7,10 +7,10 @@ public class Word {
     private String meaning;
     Word(){} //디폴트 생성자 생성
     Word(int id, int level, String word, String meaning){
-        this.id=id;
-        this.level=level;
-        this.word=word;
-        this.meaning=meaning;
+        this.id=id;                 //id
+        this.level=level;           //단어수준
+        this.word=word;             //영단어
+        this.meaning=meaning;       //뜻
     }
     public int getId() {
         return id;
@@ -45,7 +45,7 @@ public class Word {
     }
 
     @Override
-    public String toString() {
+    public String toString() {                         //단어의 레벨을 string형태로 바꾼 후에 출력될 목록의 형태 정의
         String slevel = "";   //숫자로 되어있기 때문
         for(int i = 0 ; i < level ; i++) {
             slevel += "*";
@@ -55,6 +55,6 @@ public class Word {
         return str;
     }
     public String toFileString() {
-        return this.level + "|" + this.word + "|" + this.meaning;
+        return this.level + "|" + this.word + "|" + this.meaning;        //파일을 저장할 때 사용되는 메서드
     }
 }

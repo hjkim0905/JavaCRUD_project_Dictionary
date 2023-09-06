@@ -124,7 +124,7 @@ WordCRUD(Scanner s){
             e.printStackTrace();
         }
     }
-    public void saveFile() {
+    public void saveFile() {                    //파일저장 메서드
         try {
             PrintWriter pr = new PrintWriter(new FileWriter("test.txt")); //fname에 덮어씌우면 기존 데이터가 손상이감 따라서 임시 파일로
             for(Word one : list){
@@ -137,7 +137,7 @@ WordCRUD(Scanner s){
         }
 
     }
-    public void listAll(int level){
+    public void listAll(int level){     //목록 출력 메서드
 
         ArrayList<Integer> idList = new ArrayList<>();
         int j = 0;
