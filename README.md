@@ -20,9 +20,9 @@
 
 * 단어 추가 및 목록 보기, 나가기
 
-<img width="200" alt="단어추가,목록,나가기_1" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/1c7894e1-24a0-4c61-ae24-996a2f746a0a">
+<p align="center"><img width="200" alt="단어추가,목록,나가기_1" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/1c7894e1-24a0-4c61-ae24-996a2f746a0a">
 <img width="200" alt="단어추가,목록,나가기_2" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/6c27baf6-f6ac-41b3-8d0b-43f651770acc">
-<img width="200" alt="단어추가,목록,나가기_3" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/6a7577cd-f2a3-4ad9-9ff2-f6087c86e7c3">
+<img width="200" alt="단어추가,목록,나가기_3" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/6a7577cd-f2a3-4ad9-9ff2-f6087c86e7c3"></p>
 
     위 사진에서와 같이 단어 추가 기능을 가지고 있는 4번을 입력하면 숫자로 표현된 난이도(1부터 3까지 쉬운것부터 어려운 순서)와 추가할 새 영단어를 입력한다.
     (이 때 주의 사항은 난이도를 입력 후 “스페이스”바를 눌러 한 칸 건너뛰고 영단어를 입력해야한다.)
