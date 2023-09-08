@@ -153,7 +153,7 @@ WordCRUD(Scanner s){
         System.out.println("---------------------------");
     }
     public void searchLevel() {
-        System.out.print("=> 원하는 레벨은 (1~3) ");
+        System.out.print("=> 원하는 레벨 선택 (1:초급, 2:중급, 3:고급): ");
         int level = s.nextInt();
         listAll(level);
     }
