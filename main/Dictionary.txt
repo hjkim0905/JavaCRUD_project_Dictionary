@@ -6,3 +6,16 @@
 2|publicity|명성, 평판, 널리 알려짐, 공표
 3|subordinate|부하의, 하급자의
 2|utility|공익사업(체), 유용성
+2|proclaim|공헌하다, 선포하다
+2|seagull|갈매기
+1|thoughtlessly|생각 없이
+1|discard|버리다
+3|subordinate|부하의, 하급자의
+2|stroll|거닐다, 산책하다
+1|graceful|우아한
+1|lone|혼자인, 단독의, 외딴
+1|branch|나뭇가지
+1|trim|다듬다
+1|glance|흘긋 보다, 대강 흝어보다
+1|stock|주식, 재고
+2|executive|경영 간부, 임원
