@@ -55,6 +55,7 @@ public class Word {
         return str;
     }
     public String toFileString() {
-        return this.level + "|" + this.word + "|" + this.meaning;        //파일을 저장할 때 사용되는 메서드
+        return this.level + "|" + this.word.trim() + "|" + this.meaning;        //파일을 저장할 때 사용되는 메서드
+        //String 클래스의 trim() 메서드를 사용하여 파일이 저장될 때 word앞에 생기는 공백 제거해서 출력
     }
 }

@@ -19,4 +19,4 @@
 1|glance|흘긋 보다, 대강 흝어보다
 1|stock|주식, 재고
 2|executive|경영 간부, 임원
-1|exhibition|전시
+1|water|물
