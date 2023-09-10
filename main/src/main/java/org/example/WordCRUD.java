@@ -101,7 +101,6 @@ WordCRUD(Scanner s){
         else{
             System.out.println("취소되었습니다.");
         }
-        Word word = list.get(idList.get(id - 1));
     }
     public void loadFile() {     //이 함수는 dictionary.txt파일을 열고 데이터를 한줄씩 읽어서 워드객체로 만들어서 리스트에 추가
         try {
