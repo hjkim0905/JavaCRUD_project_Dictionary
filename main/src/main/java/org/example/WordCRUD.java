@@ -126,7 +126,7 @@ WordCRUD(Scanner s){
     }
     public void saveFile() {                    //파일저장 메서드
         try {
-            PrintWriter pr = new PrintWriter(new FileWriter("test.txt")); //fname에 덮어씌우면 기존 데이터가 손상이감 따라서 임시 파일로
+            PrintWriter pr = new PrintWriter(new FileWriter("savedFile.txt")); //fname에 덮어씌우면 기존 데이터가 손상이감 따라서 임시 파일로
             for(Word one : list){
                 pr.write(one.toFileString() + "\n");
             }
