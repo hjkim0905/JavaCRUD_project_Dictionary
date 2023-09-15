@@ -1,4 +1,3 @@
-3|superintendent|관리자, 감독관
 2|equipment|장비, 용품
 1|electric|전기의, 전기를 생산하는
 1|assure|안심시키다, 확신시키다
@@ -19,4 +18,3 @@
 1|glance|흘긋 보다, 대강 흝어보다
 1|stock|주식, 재고
 2|executive|경영 간부, 임원
-1|water|물
