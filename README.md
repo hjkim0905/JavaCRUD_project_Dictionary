@@ -64,4 +64,18 @@
     이 때 수정하고 싶은 단어나 단어가 가지고 있는 부분적인 철자들을 입력하게 되면 그 철자들을 포함한 단어들의 목록이 나타난다.
     그 후에 수정할 단어가 가지고 있는 숫자를 입력하고 뜻을 입력하면 마지막 사진에서와 같이 수정한 단어의 뜻이 수정되어 출력된다.
 
+* 단어 삭제 및 파일 저장하기
+
+<p align="center"><img width="200" alt="단어삭제,파일저장_1" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/adc86900-a87e-4d8d-bacb-76697b7d80c2">
+<img width="200" alt="단어삭제,파일저장_2" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/df16a13c-ef9f-40cf-bf9b-143ca1c4aa41">
+<img width="200" alt="단어삭제,파일저장_3" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/ffbd18f8-83b2-4b7c-8cfb-b12a8e2b8910">
+<img width="200" alt="단어삭제,파일저장_4" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/f123d587-705b-4bf7-9791-ebb2e32256d1"></p>
+<p align="center"><img width="500" alt="저장된 txt 파일 내용" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/90074f56-a21e-4d58-9b70-5a93f07f75cd"></p>
+
+    위 사진에서와 같이 단어 삭제의 기능을 가지고 있는 6번을 입력하게 되면 삭제할 단어를 검색하게 된다.
+    이 때 삭제하고 싶은 단어나 단어가 가지고 있는 부분적인 철자들을 입력하게 되면 그 철자들을 포함한 단어들의 목록이 나타난다.
+    그 후에 삭제할 단어가 가지고 있는 숫자를 입력하고 삭제할 것이냐는 물음에 'n'을 입력하게 되면 삭제가 취소되고 'Y'나 'y'를 입력하게 되면 단어가 삭제됬다는 문구와 함께 성공적으로 삭제된다.
+
+    위 사진에서와 같이 파일 저장의 기능을 가지고 있는 7번을 입력하게 되면 데이터 저장이 완료됬다는 문구와 함께 성공적으로 단어의 목록이 savedFile란 이름을 가진 txt파일에 저장이 된다.
+    저장된 txt파일은 main 폴더에 저장이 되어진다.
 
