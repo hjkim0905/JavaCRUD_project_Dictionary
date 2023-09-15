@@ -24,7 +24,7 @@
 <img width="200" alt="단어추가,목록,나가기_2" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/6c27baf6-f6ac-41b3-8d0b-43f651770acc">
 <img width="200" alt="단어추가,목록,나가기_3" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/6a7577cd-f2a3-4ad9-9ff2-f6087c86e7c3"></p>
 
-    위 사진에서와 같이 단어 추가 기능을 가지고 있는 4번을 입력하면 숫자로 표현된 난이도(1부터 3까지 쉬운것부터 어려운 순서)와 추가할 새 영단어를 입력한다.
+    위 사진에서와 같이 단어 추가의 기능을 가지고 있는 4번을 입력하면 숫자로 표현된 난이도(1부터 3까지 쉬운것부터 어려운 순서)와 추가할 새 영단어를 입력한다.
     (이 때 주의 사항은 난이도를 입력 후 “스페이스”바를 눌러 한 칸 건너뛰고 영단어를 입력해야한다.)
     그 후에는 뜻을 입력 하여 새 단어를 성공적으로 추가한다.
 
@@ -42,4 +42,15 @@
 
     위 사진에서와 같이 단어 목록을 포함하며 dictionary란 이름을 가진 txt파일을 열고 데이터를 한 줄씩 읽어서 워드 객체로 만든 후에 단어 목록에 추가되게 된다.
     이로서 컴파일할 때 dictionary.txt 파일에 있는 단어의 갯수에 맞춰 단어 몇 개가 로딩 완료되었다고 표시된다.
+
+* 단어 수정하기
+
+<p align="center"><img width="240" alt="단어수정_1" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/04ac0071-42f7-4e83-b718-30f40319835f">
+<img width="200" alt="단어수정_2" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/3ff9ecbc-f53f-45c2-8a1e-67bf159187c6">
+<img width="220" alt="단어수정_3" src="https://github.com/hjkim0905/JavaCRUD_project_Dictionary/assets/143365392/5e080bdc-d146-4d6b-93c2-d493720c02db"></p>
+
+    위 사진에서와 같이 단어 수정의 기능을 가지고 있는 5번을 입력하게 되면 수정할 단어를 검색하게 된다.
+    이 때 수정하고 싶은 단어나 단어가 가지고 있는 부분적인 철자들을 입력하게 되면 그 철자들을 포함한 단어들의 목록이 나타난다.
+    수정할 단어가 가지고 있는 숫자를 입력하고 뜻을 입력하면 마지막 사진에서와 같이 수정한 단어의 뜻이 수정되어 출력된다.
+
 
